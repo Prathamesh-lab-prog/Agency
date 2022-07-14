@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar a{
+    font-size: 1rem;
+    text-decoration: none;
+    color: azure;
+    text-transform: uppercase;
+    font-weight: 500; 
+}
+.navbar a:hover{
+   color: rgb(188, 71, 71);
+    
+}
+.intro{
+    background-image: url('./images/home\ img.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn-get-started{
+    text-transform: uppercase;
+    margin-top: 1rem;
+    width: 160px;
+    height: 5vh;
+    border-radius: 50vh;
+    color: aliceblue;
+    border-color: white;
+    background: transparent;
+
+}
+.btn-get-started:hover{
+    background-color:rgb(238, 84, 110) ;
+   color: black;
+   transition: 0.5s;
+}
+.about-body{
+   background-color:whitesmoke;
+}
+.about-navbar a{
+    padding: 2rem;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.about-navbar a:hover{
+    color: rgb(188, 71, 71);
+     
+}
+.about-head  h2 span{
+    color: brown;
+}
+.about-icons{
+    color: rgb(249, 40, 40);
+}
+
+.btn-learn-more{
+    text-transform: uppercase;
+    margin-top: 2rem;
+    width: 160px;
+    height: 5vh;
+    border-radius: 50vh;
+    color: rgb(238, 84, 110);
+    background-color: white;
+    
+       
+}
+.btn-learn-more:hover{
+   background-color:rgb(238, 84, 110) ;
+   color: white;
+   transition: 0.5s;
+}
+.card1{
+    box-shadow: 10px 5px 5px rgb(176, 173, 173);
+}
+.card1:hover{
+    background-color: rgb(238, 84, 110) ;
+    color: whitesmoke;
+}
+.abt-icn{
+    color:rgb(24, 246, 246);
+}
+.abt-card2{
+    background-color: white;
+    padding: 1rem;
+    width:100%;
+    align-items: center;
+}
+.abt-card2:hover{
+  background-color:rgb(151, 211, 166);
+  color: aliceblue;
+}
