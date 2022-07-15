@@ -87,8 +87,6 @@
     border-radius: 50vh;
     color: rgb(238, 84, 110);
     background-color: white;
-    
-       
 }
 .btn-learn-more:hover{
    background-color:rgb(238, 84, 110) ;
@@ -143,4 +141,29 @@
 }
 .team-card h6{
     font-weight: 200
+}
+.contact-icons{
+    padding: 1rem;
+    border-radius: 50%;
+    background-color: rgb(239, 224, 227);
+    color:rgb(238, 84, 110)  ;
+}
+.contact-icons:hover{
+    background-color:rgb(238, 84, 110)  ;
+    color: white;
+}
+.btn-submit{
+    margin-left: 20rem;
+    margin-top: 1rem;
+    width: 150px;
+    height: 5vh;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 20px;
+    color: white;
+    background-color:rgb(238, 84, 110) ;
+    border: none;   
+}
+.btn-submit:hover{
+    background-color:rgb(203, 89, 108)  ;
 }
